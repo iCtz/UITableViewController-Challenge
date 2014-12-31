@@ -10,11 +10,11 @@
 		2BDAE9DA1A545E43005EEE21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE9D91A545E43005EEE21 /* main.m */; };
 		2BDAE9DD1A545E43005EEE21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE9DC1A545E43005EEE21 /* AppDelegate.m */; };
 		2BDAE9E01A545E43005EEE21 /* UITableViewController_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE9DE1A545E43005EEE21 /* UITableViewController_Challenge.xcdatamodeld */; };
-		2BDAE9E31A545E43005EEE21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE9E21A545E43005EEE21 /* ViewController.m */; };
 		2BDAE9E61A545E43005EEE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE9E41A545E43005EEE21 /* Main.storyboard */; };
 		2BDAE9E81A545E43005EEE21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE9E71A545E43005EEE21 /* Images.xcassets */; };
 		2BDAE9EB1A545E43005EEE21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDAE9E91A545E43005EEE21 /* LaunchScreen.xib */; };
 		2BDAE9F71A545E44005EEE21 /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAE9F61A545E44005EEE21 /* UITableViewController_ChallengeTests.m */; };
+		2BDAEA021A546F8B005EEE21 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDAEA011A546F8B005EEE21 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		2BDAE9DB1A545E43005EEE21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BDAE9DC1A545E43005EEE21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2BDAE9DF1A545E43005EEE21 /* UITableViewController_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UITableViewController_Challenge.xcdatamodel; sourceTree = "<group>"; };
-		2BDAE9E11A545E43005EEE21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2BDAE9E21A545E43005EEE21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2BDAE9E51A545E43005EEE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDAE9E71A545E43005EEE21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2BDAE9EA1A545E43005EEE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2BDAE9F01A545E44005EEE21 /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDAE9F51A545E44005EEE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BDAE9F61A545E44005EEE21 /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		2BDAEA001A546F8B005EEE21 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2BDAEA011A546F8B005EEE21 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			children = (
 				2BDAE9DB1A545E43005EEE21 /* AppDelegate.h */,
 				2BDAE9DC1A545E43005EEE21 /* AppDelegate.m */,
-				2BDAE9E11A545E43005EEE21 /* ViewController.h */,
-				2BDAE9E21A545E43005EEE21 /* ViewController.m */,
+				2BDAEA001A546F8B005EEE21 /* TableViewController.h */,
+				2BDAEA011A546F8B005EEE21 /* TableViewController.m */,
 				2BDAE9E41A545E43005EEE21 /* Main.storyboard */,
 				2BDAE9E71A545E43005EEE21 /* Images.xcassets */,
 				2BDAE9E91A545E43005EEE21 /* LaunchScreen.xib */,
@@ -224,8 +224,8 @@
 			files = (
 				2BDAE9DD1A545E43005EEE21 /* AppDelegate.m in Sources */,
 				2BDAE9DA1A545E43005EEE21 /* main.m in Sources */,
-				2BDAE9E31A545E43005EEE21 /* ViewController.m in Sources */,
 				2BDAE9E01A545E43005EEE21 /* UITableViewController_Challenge.xcdatamodeld in Sources */,
+				2BDAEA021A546F8B005EEE21 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +416,7 @@
 				2BDAE9FC1A545E44005EEE21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BDAE9FD1A545E44005EEE21 /* Build configuration list for PBXNativeTarget "UITableViewController ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				2BDAE9FF1A545E44005EEE21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
